@@ -1,4 +1,6 @@
 params.outdir = 'results'
+process.memory = '16 GB'  // crabba
+process.cpus = 4          // crabba
 
 include { INDEX } from './index'
 include { QUANT } from './quant'
